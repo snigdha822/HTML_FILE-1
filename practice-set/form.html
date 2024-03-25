@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <label for="eligibility">Are you eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligibility">
+        </div>
+        <br>
+        <div>
+           Year: 1st <input type="checkbox" name="myName"> 2nd <input type="checkbox" name="myName">
+        </div>
+        <br><div>
+            Gender: Male <input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+        </div>
+        <br>
+         <div>
+             write anout yourself!: <br><textarea name="myText" cols="30" rows="10"></textarea>
+         </div>
+         <br>
+         <div>
+         <label for="car">Car</label>
+         <select name="myCar" id="car">
+            <option value="Indica">Indica</option>
+            <option value="audi">Audi</option>
+            <option value="Rolls-Royce" selected> Rolls-Royce</option>
+            <option value="fortunar">Fortunar</option>
+         </select>
+         </div>
+         <br>
+         <input type="submit" value="Submit now">
+         <input type="reset" value="Reset now">
+    </form>
+</body>
+</html>
